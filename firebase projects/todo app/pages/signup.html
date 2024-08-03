@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+
+</head>
+
+<style>
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  body {
+
+    /* border: 2px solid red; */
+    height: 100vh;
+  }
+
+  
+</style>
+
+<body>
+  <h1>SIGNUP</h1>
+
+  <div class="signup-parent">
+    <div>
+
+      <label for="name">Full Name:</label>
+      <input type="text" id="fullName" placeholder="Enter your full name" />
+    </div>
+    <div>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" placeholder="Enter your email address" />
+    </div>
+    <div>
+      <label for="gender">Gender:</label>
+      <input type="text" id="gender" placeholder="Enter your gender" />
+    </div>
+
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" />
+    </div>
+
+  </div>
+
+  <div class="control-btn">
+
+
+    <br />
+    <button class="btn btn-outline-primary" onclick="signUpHandler()">Signup</button>
+    <br />
+    <button class="btn btn-outline-primary">
+
+      <a style="text-decoration: none " href="./login.html">Login</a>
+    </button>
+  </div>
+
+</body>
+
+<script type="module" src="../javascript/signup.js"></script>
+
+</html>
