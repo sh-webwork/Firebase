@@ -82,10 +82,10 @@ const getTodos = async () => {
                   </div>    
 
                   <div class="card-btn d-flex gap-3">
-                    <button class="btn btn-primary" id=${obj.id} onclick="editTodo(this)"
+                    <button class="btn btn-primary" id=`${obj.id}` onclick="editTodo(this)"
                   >Edit 
                   <span><img class="nav-images" style="width: 25px;" src="./images/edit-button.png" alt=""></span></button>
-                  <button class="btn btn-primary" id="${obj.id}" onclick="deleteTodo(this.getParent)" >Delete
+                  <button class="btn btn-primary" id=`${obj.id}` onclick="deleteTodo(this.getParent)" >Delete
                   <span><img class="nav-images" style="width: 25px;" src="./images/delete.png" alt=""></span></button>
                   </div>
                   </div>
