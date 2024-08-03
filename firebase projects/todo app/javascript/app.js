@@ -45,25 +45,6 @@ const getTodos = async () => {
   try {
     const querySnapshot = await getDocs(todoCollection);
     let todoArr = [];
-    // 1 way
-    // querySnapshot.forEach((doc) => {
-    //     const obj = {
-    //         id: doc.id,
-    //         ...doc.data()
-    //     }
-    //     todoArr.push(obj)
-
-    // })
-
-    // for (var obj of todoArr) {
-    //     todoParent.innerHTML += `<div class="card my-3 " style="width: 18rem;">
-    //         <div class="card-body">
-    //             <h5 class="card-title"> ${obj.value} </h5>
-    //             <button class="btn btn-info">Edit</button>
-    //             <button class="btn btn-danger">Delete</button>
-    //         </div>
-    //     </div>`
-    // }
 
     // 2 way
     todoParent.innerHTML = "";
