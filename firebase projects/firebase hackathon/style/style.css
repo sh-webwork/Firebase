@@ -1,0 +1,23 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #efd5d5; */
+    background-image: url(../images/background\ img.jpg);
+    /* background; */
+}
+
+.main-heading{
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #323232;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #323232;
+}
